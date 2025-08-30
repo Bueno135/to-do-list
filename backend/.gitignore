@@ -31,3 +31,35 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+
+# Build artifacts
+frontend/build/
+frontend/dist/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven/Spring Boot
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Database
+*.db
+*.sqlite
