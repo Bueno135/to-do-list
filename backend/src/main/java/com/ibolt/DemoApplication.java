@@ -1,4 +1,4 @@
-package com.ibolt.demo;
+package com.ibolt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
