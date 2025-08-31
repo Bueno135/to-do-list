@@ -12,7 +12,6 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
     // Métodos automáticos do JpaRepository:
     // save(), findAll(), findById(), deleteById(), count()
     
-    // Métodos personalizados (opcionais)
     List<Task> findByCompleted(Boolean completed);
     
     @Query("SELECT t FROM Task t ORDER BY t.createdAt DESC")

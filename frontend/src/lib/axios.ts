@@ -1,9 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.NODE_ENV === 'production' 
-  ? '/api/tasks'  
-  : 'http://localhost:8080/tasks';
-
+const API_URL = 'http://localhost:8080/tasks';
 
 export const taskAPI = {
   getAllTasks: () => axios.get(API_URL),
